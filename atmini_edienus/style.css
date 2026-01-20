@@ -1,0 +1,30 @@
+h1 
+{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 25px;
+  background-color: rgb(236, 130, 130);
+  color: rgb(226, 37, 37);
+  top: 50px;
+}
+h2
+{
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(236, 130, 130);
+  color: rgb(226, 37, 37);
+  top: 150px;
+}
+
+.pirmais {
+  width: 1100px;
+ height: 600px;
+ background-color: #CC6656; 
+ 
+ 
+ 
+}
+body {
+  background-color: #441d3b;
+}
