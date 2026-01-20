@@ -2,29 +2,49 @@ h1
 {
   font-family: sans-serif;
   text-align: center;
-  padding: 25px;
+  padding: 40px;
   background-color: rgb(236, 130, 130);
   color: rgb(226, 37, 37);
-  top: 0px;
 }
 h2
 {
   font-family: sans-serif;
   text-align: center;
-  padding: 50px;
+  padding: 35px;
   background-color: rgb(236, 130, 130);
   color: rgb(226, 37, 37);
-  top: 150px;
 }
-div {
- width: 1100px;
- height: 600px;
- color: rgb(92, 84, 88);
- line-height: 100px;
- margin: 100px;
- } 
-.pirmais {
- background-color: #CC6656; 
- position: absolute;
+
+
+ .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+  background-color: rgb(236, 130, 130);
+  padding: 10px;
+  gap: 10px;  
+}
+.container div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  height: 158px;
+  width: 250px;
+}
+img {
+  height: 158px;
+  width: 250px;
+}
+ button {
+  text-align: cente;
+  height: 60px;
+  width: 90px;
+  color:rgb(236, 130, 130) ;
+ }
  
+
+body {
+  background-color: #441d3b;
 }
